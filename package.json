@@ -1,0 +1,23 @@
+{
+  "name": "ghabya-but-tarbah",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.x",
+    "webpack-cli": "^4.x",
+    "webpack-dev-server": "^4.x",
+    "@babel/core": "^7.x",
+    "@babel/preset-react": "^7.x",
+    "babel-loader": "^8.x",
+    "tailwindcss": "^3.x",
+    "postcss": "^8.x",
+    "autoprefixer": "^10.x"
+  }
+}
